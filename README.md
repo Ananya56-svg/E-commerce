@@ -28,3 +28,26 @@ This is a full-stack E-commerce web application built with:
 
 1. Go to `server` folder
 2. Install dependencies:
+3. 3. Run backend:
+4. MongoDB must be running locally or on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+
+### Frontend (React)
+
+1. Go to `client` folder
+2. Install dependencies:
+3. Run frontend:
+
+## 🌐 Deployment
+
+- Frontend: [Vercel](https://vercel.com)
+- Backend: [Render](https://render.com)
+- DB: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+
+
+
+---
+
+## 🧑‍💻 Author
+
+- [Ananya56-svg](https://github.com/Ananya56-svg)
+
