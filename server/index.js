@@ -27,32 +27,33 @@ app.get('/seed-products', async (req, res) => {
     {
       name: 'Notebook',
       price: 50,
-      image: 'https://m.media-amazon.com/images/I/71xblPRZxUL._SL1500_.jpg'
+      image: 'https://drive.google.com/uc?export=view&id=1PJEw_3RoMkWvqXv_9eWrbd98ZYNvfDF0'
+
     },
     {
       name: 'Ball Pen Set',
       price: 120,
-      image: 'https://m.media-amazon.com/images/I/61vHz+Pl5FL._SL1500_.jpg'
+      image: 'https://drive.google.com/uc?export=view&id=1FcIhpp6iMlfgMQVZNTWaqiMNyRme8MSj'
     },
     {
       name: 'Desk Lamp',
       price: 699,
-      image: 'https://m.media-amazon.com/images/I/71tS9ZIF1jL._SL1500_.jpg'
+      image: 'https://drive.google.com/uc?export=view&id=1uteWy2PsvqU0pQKwgu-QenA6_vAIth50'
     },
     {
       name: 'Wireless Mouse',
       price: 499,
-      image: 'https://m.media-amazon.com/images/I/71fzbYci-OL._SL1500_.jpg'
+      image: 'https://drive.google.com/uc?export=view&id=1WfpaLLGUkefZTaCXr14utPXwJZPV3PW2'
     },
     {
       name: 'Bluetooth Headphones',
       price: 1299,
-      image: 'https://m.media-amazon.com/images/I/71I8bdp7pDL._SL1500_.jpg'
+      image: 'https://drive.google.com/uc?export=view&id=1uYFNTrGRq4mM2pBRXsfMMJw6fm1O09LQ'
     },
     {
       name: 'Laptop Stand',
       price: 899,
-      image: 'https://m.media-amazon.com/images/I/61cuqdp5NXL._SL1500_.jpg'
+      image: 'https://drive.google.com/uc?export=view&id=1YNj3JW3GFFcjTNhO3uTl7Es94_Ww45Po'
     }
   ];
   await Product.insertMany(sampleProducts);
